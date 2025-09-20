@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EMMZAHUB Softwares – PC Installs, Upgrades & Support</title>
+  <style>
+    :root {
+      --bg: #0d0d0d;
+      --panel: #151515;
+      --accent: #ff2a2a;
+      --accent-2: #ff5a5a;
+      --text: #ffffff;
+      --muted: #c7c7c7;
+      --ok: #79ff79;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(180deg, #111 0%, #0b0b0b 100%);
+      border-bottom: 2px solid var(--accent);
+      text-align: center;
+      padding: 36px 16px 28px;
+    }
+    header h1 {
+      margin: 0 0 6px;
+      font-size: clamp(28px, 4vw, 44px);
+      letter-spacing: 1px;
+      color: var(--accent);
+    }
+    header p { margin: 0; color: var(--muted); font-size: clamp(14px, 2.5vw, 18px); }
+
+    .container { max-width: 980px; margin: 0 auto; padding: 24px 16px 64px; }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid #202020;
+      border-left: 4px solid var(--accent);
+      border-radius: 14px;
+      padding: 18px 18px;
+      margin: 18px 0;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+    }
+    h2 { color: var(--accent-2); margin: 8px 0 10px; font-size: clamp(20px, 3vw, 26px); }
+    h3 { color: #fff; margin: 10px 0 6px; font-size: 18px; }
+
+    ul { margin: 8px 0 0 0; padding: 0 0 0 18px; }
+    li { margin: 6px 0; }
+
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+
+    .note {
+      font-size: 13px; color: var(--muted);
+      background: #101010; border: 1px dashed #2a2a2a; padding: 10px 12px; border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    .offers { border-left-color: #ffa500; }
+
+    .why li { list-style: none; position: relative; padding-left: 22px; }
+    .why li::before { content: "✔"; color: var(--ok); position: absolute; left: 0; }
+
+    .contact { text-align: center; margin-top: 28px; }
+    .cta {
+      display: inline-block; margin: 10px 8px; text-decoration: none;
+      background: var(--accent); color: #fff; padding: 12px 18px; border-radius: 10px; border: none;
+      font-weight: 600; cursor: pointer;
+    }
+    .cta:hover { background: #e31f1f; }
+
+    footer { text-align: center; color: var(--muted); border-top: 2px solid var(--accent); padding: 18px 10px; background: #111; }
+    small { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EMMZAHUB SOFTWARES</h1>
+    <p>Windows Installs • PC Tune-Ups • Upgrades • Data Backup • Legit Game Support</p>
+  </header>
+
+  <main class="container">
+
+    <section class="card">
+      <h2>Windows Installations (Labour)</h2>
+      <p class="note">Labour pricing below <strong>excludes license keys</strong>. We can use your existing key or help you purchase a genuine one. Includes drivers, Windows updates, and essential apps.</p>
+      <ul>
+        <li>Windows 10 / 11 Home — <strong>R200</strong></li>
+        <li>Windows 10 / 11 Pro — <strong>R250</strong></li>
+        <li>Windows 7 / 8 (legacy, where supported) — <strong>R150</strong></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Upgrades & Maintenance</h2>
+      <div class="grid">
+        <div>
+          <h3>Performance & Health</h3>
+          <ul>
+            <li>Full tune-up (startup cleanup, updates, temps check) — <strong>R150</strong></li>
+            <li>Malware/Adware cleanup — <strong>R150</strong></li>
+            <li>Driver pack & firmware updates — <strong>R100</strong></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Storage & Data</h3>
+          <ul>
+            <li>Data backup (up to 100GB) — <strong>R100</strong></li>
+            <li>SSD/HDD clone or fresh install & migrate — <strong>R150</strong></li>
+            <li>Partitioning & disk health check — <strong>R80</strong></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Hardware Fitment</h3>
+          <ul>
+            <li>RAM / SSD / HDD install (labour only) — <strong>R80</strong></li>
+            <li>Thermal paste & dust clean — <strong>R120</strong></li>
+            <li>Desktop re-cable tidy — <strong>R80</strong></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Game Support (Legit Only)</h2>
+      <p>We help you install and optimise <strong>client-owned</strong> titles from Steam, Epic, EA App, Battle.net, or original discs.</p>
+      <ul>
+        <li>Game install/update via official launchers — <strong>R80 per title</strong></li>
+        <li>GPU driver + settings optimisation (FIFA, GTA V, etc.) — <strong>R100</strong></li>
+        <li>Controller setup & overlays (DS4Windows, XInput, etc.) — <strong>R60</strong></li>
+      </ul>
+      <p class="note"><strong>No cracked/repacked games are provided or advertised.</strong> Bring your own account or license.</p>
+    </section>
+
+    <section class="card offers">
+      <h2>Bundles & Promos (until 1 Jan 2026)</h2>
+      <ul>
+        <li><strong>Windows 10/11 Pro Install Bundle — R300</strong><br><small>Includes drivers, basic apps & updates. License not included.</small></li>
+        <li><strong>SSD Upgrade Bundle — R450</strong><br><small>Fit SSD (supplied by you) + clone or fresh install + data migrate up to 100GB.</small></li>
+      </ul>
+    </section>
+
+    <section class="card why">
+      <h2>Why Choose Emmzahub?</h2>
+      <ul>
+        <li>Fast, reliable, local support</li>
+        <li>Transparent, labour-only pricing</li>
+        <li>Troubleshooting for desktops & laptops</li>
+        <li>Serving Khutsong South & local areas including Carletonville</li>
+      </ul>
+    </section>
+
+    <section class="contact">
+      <h2>Book Now</h2>
+      <p>📞 Call / WhatsApp: <strong>073 424 4161</strong></p>
+      <a class="cta" href="tel:+27734244161">Call</a>
+      <a class="cta" href="https://wa.me/27734244161" target="_blank" rel="noopener">WhatsApp</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 EMMZAHUB SOFTWARES — All Rights Reserved</p>
+    <small>Emmzahub Softwares supports Emmza Café & Emmzahub Gaming Hub with professional PC services.</small>
+  </footer>
+</body>
+</html>
